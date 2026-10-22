@@ -1,3 +1,3 @@
-// BEGIN
+const convert = (...dates) => dates.map(([year, month, day]) => new Date(year, month, day).toDateString());
 
-// END
+export default convert;

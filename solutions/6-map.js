@@ -1,3 +1,3 @@
-// BEGIN
+const getChildren = (users) => users.map((user) => user.children).flat();
 
-// END
+export default getChildren;
